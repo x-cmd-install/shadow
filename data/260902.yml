@@ -1,0 +1,61 @@
+about:
+  description: Upstream shadow tree
+  license: NOASSERTION
+  homepage: 
+  head: 92bb6f2
+  archived: false
+  latestVersion: 3.3.1
+  collectedAt: 2026-09-02T05:30:04Z
+timeline:
+  created: 2013-06-05
+  lastCommit: 2026-08-31
+  lastRelease: 2026-08-10
+popularity:
+  star: 395
+  watcher: 15
+  fork: 284
+  release: 58
+  contributor: 201
+  pullRequest: 218
+  issue: 497
+language:
+  Shell: 1543888
+  C: 1228585
+  Python: 182341
+  M4: 23294
+  Makefile: 17658
+  Perl: 3114
+totalLine: 2998880
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 2
+    mergedPR: 6
+    openPR: 7
+    closedIssue: 1
+    openIssue: 5
+    commit: 5
+  last90d:
+    since: 2026-06-04
+    release: 6
+    mergedPR: 45
+    openPR: 18
+    closedIssue: 16
+    openIssue: 9
+    commit: 90
+  last180d:
+    since: 2026-03-06
+    release: 6
+    mergedPR: 82
+    openPR: 24
+    closedIssue: 25
+    openIssue: 14
+    commit: 187
+  last360d:
+    since: 2025-09-07
+    release: 12
+    mergedPR: 203
+    openPR: 53
+    closedIssue: 59
+    openIssue: 28
+    commit: 441

@@ -7,7 +7,7 @@ about:
   head: 429f7b6
   archived: false
   latestVersion: 3.3.1
-  collectedAt: 2026-09-04T20:15:45Z
+  collectedAt: 2026-09-04T20:24:49Z
 timeline:
   created: 2013-06-05
   lastCommit: 2026-09-03
@@ -86,7 +86,7 @@ total:
   commit: 4691
 ---
 path: /home/runner/.x-repo/github.com/shadow-maint/shadow
-collectedAt: 2026-09-04T20:15:50Z
+collectedAt: 2026-09-04T20:24:54Z
 loc:
   C:
     code: 30151

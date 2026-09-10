@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7545777,
       "digest": "sha256:e5016b40541ee6fa02ea3d409547cef6e7eea9b31f0e3482e4874f87c1d0c7c5",
-      "download_count": 2222,
+      "download_count": 2306,
       "created_at": "2026-08-08T12:25:12Z",
       "updated_at": "2026-08-08T12:25:14Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2291052,
       "digest": "sha256:b89f432b75ae55a2d852b446d0365484795fdf533ab97d550e325fa15594a224",
-      "download_count": 2998,
+      "download_count": 3075,
       "created_at": "2026-08-08T12:25:14Z",
       "updated_at": "2026-08-08T12:25:15Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.xz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:f596807fa7471f5bd0f1234b0f1ae732ea92932a869f10329f280fe0702b6c30",
-      "download_count": 116,
+      "download_count": 117,
       "created_at": "2026-08-08T12:25:15Z",
       "updated_at": "2026-08-08T12:25:15Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.xz.asc"

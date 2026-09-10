@@ -7,7 +7,7 @@ about:
   latestVersion: "3.3.1"
   latestRelease: "3.3.1"
   latestPrerelease: "4.20.0-rc3"
-  collectedAt: 2026-09-10T21:18:47Z
+  collectedAt: 2026-09-10T22:32:00Z
 timeline:
   created: 2013-06-05
   lastCommit: 2026-09-10
@@ -88,7 +88,7 @@ total:
   commit: 4700
 ---
 path: /home/runner/.x-repo/github.com/shadow-maint/shadow
-collectedAt: 2026-09-10T21:18:57Z
+collectedAt: 2026-09-10T22:32:14Z
 loc:
   C:
     code: 30155

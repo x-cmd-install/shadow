@@ -12,6 +12,18 @@ Upstream shadow tree
 x install shadow
 ```
 
+## Code insight
+
+Total: **54,358** lines of code across **493** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 30,155 | 8,688 | 5,844 | 226 |
+| Xml | 12,461 | 701 | 281 | 110 |
+| Python | 4,659 | 23 | 892 | 32 |
+| CHeader | 2,444 | 855 | 1,321 | 104 |
+| Sh | 2,147 | 150 | 196 | 21 |
+
 ## Source
 
 - **Upstream**: <https://github.com/shadow-maint/shadow>
@@ -36,20 +48,11 @@ x install shadow
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 7 | 8 | 1 | 3 | 13 |
+| last60d | 2026-07-12 | 4 | 30 | 16 | 9 | 7 | 55 |
 | 90d | 2026-06-12 | 6 | 48 | 18 | 14 | 9 | 99 |
+| last180d | 2026-03-14 | 6 | 76 | 22 | 24 | 13 | 162 |
 | 360d | 2025-09-15 | 12 | 205 | 53 | 59 | 28 | 450 |
-
-## Code size
-
-Total: **54,358** lines of code across **493** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 30,155 | 8,688 | 5,844 | 226 |
-| Xml | 12,461 | 701 | 281 | 110 |
-| Python | 4,659 | 23 | 892 | 32 |
-| CHeader | 2,444 | 855 | 1,321 | 104 |
-| Sh | 2,147 | 150 | 196 | 21 |
+| last720d | 2024-09-20 | 21 | 377 | 69 | 107 | 38 | 1039 |
 
 ## Release assets
 
@@ -64,6 +67,23 @@ Total: **54,358** lines of code across **493** files in the top 5 languages.
 | [shadow-4.20.2_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.gz) | 3.8 MiB | `native/unknown` |
 | [shadow-4.20.2_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.xz) | 1.7 MiB | `other` |
 
+## Distribution status
+
+Reported by **309** distros on [repology.org](https://repology.org/project/shadow). **16** are ✅ on the latest upstream release, **283** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.19.3` | ⚠️ outdated |
+| Debian 14 | `4.19.3` | ⚠️ outdated |
+| Debian 13 | `4.17.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.17.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.13` | ⚠️ outdated |
+| Arch | `4.20.0.arch1` | ⚠️ outdated |
+| Nix unstable | `4.20.2` | ✅ latest |
+| Void | `4.8.1` | ⚠️ outdated |
+| Alpine edge | `4.18.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.20.2` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `shadow` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -73,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T18:27:05Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:19:03Z._

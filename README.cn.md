@@ -12,6 +12,18 @@ Upstream shadow tree
 x install shadow
 ```
 
+## 代码规模
+
+合计: **54,358** 行代码（覆盖前 5 种语言、共 **493** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| C | 30,155 | 8,688 | 5,844 | 226 |
+| Xml | 12,461 | 701 | 281 | 110 |
+| Python | 4,659 | 23 | 892 | 32 |
+| CHeader | 2,444 | 855 | 1,321 | 104 |
+| Sh | 2,147 | 150 | 196 | 21 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/shadow-maint/shadow>
@@ -36,20 +48,11 @@ x install shadow
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 7 | 8 | 1 | 3 | 13 |
+| last60d | 2026-07-12 | 4 | 30 | 16 | 9 | 7 | 55 |
 | 90d | 2026-06-12 | 6 | 48 | 18 | 14 | 9 | 99 |
+| last180d | 2026-03-14 | 6 | 76 | 22 | 24 | 13 | 162 |
 | 360d | 2025-09-15 | 12 | 205 | 53 | 59 | 28 | 450 |
-
-## 代码规模
-
-合计: **54,358** 行代码（覆盖前 5 种语言、共 **493** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 30,155 | 8,688 | 5,844 | 226 |
-| Xml | 12,461 | 701 | 281 | 110 |
-| Python | 4,659 | 23 | 892 | 32 |
-| CHeader | 2,444 | 855 | 1,321 | 104 |
-| Sh | 2,147 | 150 | 196 | 21 |
+| last720d | 2024-09-20 | 21 | 377 | 69 | 107 | 38 | 1039 |
 
 ## Release 资产
 
@@ -64,6 +67,23 @@ x install shadow
 | [shadow-4.20.2_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.gz) | 3.8 MiB | `native/unknown` |
 | [shadow-4.20.2_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.xz) | 1.7 MiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/shadow) 上共有 **309** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**283** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `4.19.3` | ⚠️ outdated |
+| Debian 14 | `4.19.3` | ⚠️ outdated |
+| Debian 13 | `4.17.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.17.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.13` | ⚠️ outdated |
+| Arch | `4.20.0.arch1` | ⚠️ outdated |
+| Nix unstable | `4.20.2` | ✅ latest |
+| Void | `4.8.1` | ⚠️ outdated |
+| Alpine edge | `4.18.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.20.2` | ✅ latest |
+
 ## 改进这些数据
 
 shadow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `shadow` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -73,4 +93,4 @@ shadow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T18:27:06Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:19:04Z._

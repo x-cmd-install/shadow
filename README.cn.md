@@ -14,14 +14,14 @@ x install shadow
 
 ## 代码洞察
 
-合计: **54,382** 行代码（覆盖前 5 种语言、共 **494** 个文件）。
+合计: **54,395** 行代码（覆盖前 5 种语言、共 **494** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 30,155 | 8,688 | 5,844 | 226 |
+| C | 30,157 | 8,688 | 5,847 | 226 |
 | Xml | 12,484 | 705 | 281 | 111 |
 | Python | 4,659 | 23 | 892 | 32 |
-| CHeader | 2,444 | 855 | 1,321 | 104 |
+| CHeader | 2,455 | 856 | 1,327 | 104 |
 | Sh | 2,147 | 150 | 196 | 21 |
 
 ## 源代码
@@ -32,7 +32,7 @@ x install shadow
 ## 发布
 
 - **最新版本**: `3.3.1` (2026-08-10)
-- **最近提交**: 2026-09-11
+- **最近提交**: 2026-09-13
 - **Release 含资产**: 8 个
 
 ## 流行度
@@ -41,18 +41,18 @@ x install shadow
 
 ## 累计统计
 
-- **发布数**: 58 · **已合并 PR**: 1021 · **开放 PR**: 75 · **已关闭 issue**: 407 · **开放 issue**: 92 · **提交数**: 4701
+- **发布数**: 58 · **已合并 PR**: 1022 · **开放 PR**: 74 · **已关闭 issue**: 407 · **开放 issue**: 92 · **提交数**: 4702
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 8 | 9 | 1 | 4 | 14 |
-| last60d | 2026-07-15 | 4 | 29 | 12 | 8 | 8 | 32 |
-| 90d | 2026-06-15 | 6 | 48 | 18 | 12 | 10 | 93 |
-| last180d | 2026-03-17 | 6 | 75 | 21 | 24 | 12 | 159 |
-| 360d | 2025-09-18 | 12 | 206 | 54 | 57 | 29 | 451 |
-| last720d | 2024-09-23 | 21 | 378 | 70 | 105 | 39 | 1040 |
+| 30d | 2026-08-15 | 0 | 8 | 9 | 1 | 4 | 14 |
+| last60d | 2026-07-16 | 4 | 28 | 12 | 8 | 8 | 32 |
+| 90d | 2026-06-16 | 6 | 47 | 18 | 12 | 9 | 93 |
+| last180d | 2026-03-18 | 6 | 76 | 20 | 24 | 12 | 159 |
+| 360d | 2025-09-19 | 12 | 207 | 53 | 57 | 29 | 452 |
+| last720d | 2024-09-24 | 21 | 379 | 69 | 105 | 39 | 1041 |
 
 ## Release 资产
 
@@ -67,23 +67,6 @@ x install shadow
 | [shadow-4.20.2_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.gz) | 3.8 MiB | `native/unknown` |
 | [shadow-4.20.2_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.xz) | 1.7 MiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/shadow) 上共有 **309** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**283** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `4.19.3` | ⚠️ outdated |
-| Debian 14 | `4.19.3` | ⚠️ outdated |
-| Debian 13 | `4.17.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.17.4` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.13` | ⚠️ outdated |
-| Arch | `4.20.0.arch1` | ⚠️ outdated |
-| Nix unstable | `4.20.2` | ✅ latest |
-| Void | `4.8.1` | ⚠️ outdated |
-| Alpine edge | `4.18.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.20.2` | ✅ latest |
-
 ## 改进这些数据
 
 shadow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `shadow` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -93,4 +76,4 @@ shadow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:31:26Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:50:19Z._

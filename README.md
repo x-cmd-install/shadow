@@ -14,14 +14,14 @@ x install shadow
 
 ## Code insight
 
-Total: **54,382** lines of code across **494** files in the top 5 languages.
+Total: **54,395** lines of code across **494** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 30,155 | 8,688 | 5,844 | 226 |
+| C | 30,157 | 8,688 | 5,847 | 226 |
 | Xml | 12,484 | 705 | 281 | 111 |
 | Python | 4,659 | 23 | 892 | 32 |
-| CHeader | 2,444 | 855 | 1,321 | 104 |
+| CHeader | 2,455 | 856 | 1,327 | 104 |
 | Sh | 2,147 | 150 | 196 | 21 |
 
 ## Source
@@ -32,7 +32,7 @@ Total: **54,382** lines of code across **494** files in the top 5 languages.
 ## Release
 
 - **Latest**: `3.3.1` (2026-08-10)
-- **Last commit**: 2026-09-11
+- **Last commit**: 2026-09-13
 - **Assets in release**: 8
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **54,382** lines of code across **494** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1021 · **Open PRs**: 75 · **Closed issues**: 407 · **Open issues**: 92 · **Commits**: 4701
+- **Releases**: 58 · **Merged PRs**: 1022 · **Open PRs**: 74 · **Closed issues**: 407 · **Open issues**: 92 · **Commits**: 4702
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 8 | 9 | 1 | 4 | 14 |
-| last60d | 2026-07-15 | 4 | 29 | 12 | 8 | 8 | 32 |
-| 90d | 2026-06-15 | 6 | 48 | 18 | 12 | 10 | 93 |
-| last180d | 2026-03-17 | 6 | 75 | 21 | 24 | 12 | 159 |
-| 360d | 2025-09-18 | 12 | 206 | 54 | 57 | 29 | 451 |
-| last720d | 2024-09-23 | 21 | 378 | 70 | 105 | 39 | 1040 |
+| 30d | 2026-08-15 | 0 | 8 | 9 | 1 | 4 | 14 |
+| last60d | 2026-07-16 | 4 | 28 | 12 | 8 | 8 | 32 |
+| 90d | 2026-06-16 | 6 | 47 | 18 | 12 | 9 | 93 |
+| last180d | 2026-03-18 | 6 | 76 | 20 | 24 | 12 | 159 |
+| 360d | 2025-09-19 | 12 | 207 | 53 | 57 | 29 | 452 |
+| last720d | 2024-09-24 | 21 | 379 | 69 | 105 | 39 | 1041 |
 
 ## Release assets
 
@@ -67,23 +67,6 @@ Total: **54,382** lines of code across **494** files in the top 5 languages.
 | [shadow-4.20.2_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.gz) | 3.8 MiB | `native/unknown` |
 | [shadow-4.20.2_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.xz) | 1.7 MiB | `other` |
 
-## Distribution status
-
-Reported by **309** distros on [repology.org](https://repology.org/project/shadow). **16** are ✅ on the latest upstream release, **283** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.19.3` | ⚠️ outdated |
-| Debian 14 | `4.19.3` | ⚠️ outdated |
-| Debian 13 | `4.17.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.17.4` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.13` | ⚠️ outdated |
-| Arch | `4.20.0.arch1` | ⚠️ outdated |
-| Nix unstable | `4.20.2` | ✅ latest |
-| Void | `4.8.1` | ⚠️ outdated |
-| Alpine edge | `4.18.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.20.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `shadow` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -93,4 +76,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:31:25Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:50:18Z._

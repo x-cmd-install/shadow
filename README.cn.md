@@ -31,41 +31,41 @@ x install shadow
 
 ## 发布
 
-- **最新版本**: `3.3.1` (2026-08-10)
+- **最新版本**: `4.20.3` (2026-09-23)
 - **最近提交**: 2026-09-22
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 398 · **Fork**: 290 · **开放 issue**: 501 · **贡献者**: 205
+- **Star**: 398 · **Fork**: 290 · **开放 issue**: 502 · **贡献者**: 205
 
 ## 累计统计
 
-- **发布数**: 58 · **已合并 PR**: 1036 · **开放 PR**: 70 · **已关闭 issue**: 406 · **开放 issue**: 95 · **提交数**: 4759
+- **发布数**: 59 · **已合并 PR**: 1036 · **开放 PR**: 74 · **已关闭 issue**: 406 · **开放 issue**: 96 · **提交数**: 4759
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 17 | 6 | 1 | 4 | 36 |
-| last60d | 2026-07-25 | 3 | 27 | 10 | 6 | 9 | 70 |
-| 90d | 2026-06-25 | 4 | 50 | 14 | 10 | 10 | 133 |
-| last180d | 2026-03-27 | 6 | 80 | 17 | 23 | 13 | 203 |
-| 360d | 2025-09-28 | 12 | 219 | 50 | 56 | 30 | 504 |
-| last720d | 2024-10-03 | 21 | 389 | 65 | 104 | 42 | 1094 |
+| 30d | 2026-08-25 | 1 | 15 | 10 | 1 | 5 | 36 |
+| last60d | 2026-07-26 | 4 | 27 | 14 | 6 | 10 | 70 |
+| 90d | 2026-06-26 | 5 | 50 | 18 | 10 | 11 | 133 |
+| last180d | 2026-03-28 | 7 | 80 | 21 | 23 | 14 | 203 |
+| 360d | 2025-09-29 | 13 | 219 | 53 | 56 | 31 | 504 |
+| last720d | 2024-10-04 | 22 | 388 | 69 | 104 | 43 | 1093 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [shadow-4.20.2.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.gz) | 7.2 MiB | `native/unknown` |
-| [shadow-4.20.2.tar.gz.asc](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.gz.asc) | 833 B | `other` |
-| [shadow-4.20.2.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.xz) | 2.2 MiB | `other` |
-| [shadow-4.20.2.tar.xz.asc](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.xz.asc) | 833 B | `other` |
-| [shadow-4.20.2_src.tar](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar) | 32.4 MiB | `other` |
-| [shadow-4.20.2_src.tar.asc](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.asc) | 833 B | `other` |
-| [shadow-4.20.2_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.gz) | 3.8 MiB | `native/unknown` |
-| [shadow-4.20.2_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2_src.tar.xz) | 1.7 MiB | `other` |
+| [shadow-4.20.3.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.gz) | 7.2 MiB | `native/unknown` |
+| [shadow-4.20.3.tar.gz.asc](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.gz.asc) | 833 B | `other` |
+| [shadow-4.20.3.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.xz) | 2.2 MiB | `other` |
+| [shadow-4.20.3.tar.xz.asc](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.xz.asc) | 833 B | `other` |
+| [shadow-4.20.3_src.tar](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar) | 32.4 MiB | `other` |
+| [shadow-4.20.3_src.tar.asc](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.asc) | 833 B | `other` |
+| [shadow-4.20.3_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.gz) | 3.8 MiB | `native/unknown` |
+| [shadow-4.20.3_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.xz) | 1.7 MiB | `other` |
 
 ## 改进这些数据
 
@@ -76,4 +76,4 @@ shadow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260923.yml` · 2026-09-23T06:50:44Z._
+_数据快照: `data/card/260924.yml` · 2026-09-24T06:08:12Z._

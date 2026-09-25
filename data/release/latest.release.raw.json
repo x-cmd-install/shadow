@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7502400,
       "digest": "sha256:39006c9daf9228ddda9156605201fc9f59c43f9fdecc83c78bbe0e72d9ffd58c",
-      "download_count": 1,
+      "download_count": 4,
       "created_at": "2026-09-23T18:25:47Z",
       "updated_at": "2026-09-23T18:26:02Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2331188,
       "digest": "sha256:623be9429f64fa2165bfc5957c6a642ec309c5cf23c0d53855c99f7591922297",
-      "download_count": 110,
+      "download_count": 244,
       "created_at": "2026-09-23T18:26:03Z",
       "updated_at": "2026-09-23T18:26:07Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.xz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:7e339baf514d8b141e739f1c11c88d3816b1bfdf32f69bfd069db8b4edd2d61b",
-      "download_count": 6,
+      "download_count": 15,
       "created_at": "2026-09-23T18:26:07Z",
       "updated_at": "2026-09-23T18:26:08Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3.tar.xz.asc"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4014452,
       "digest": "sha256:be98c29bb9d013efd30511cb047c50cc26d385bace4e754ae73b07ee1b73352f",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-09-23T18:26:56Z",
       "updated_at": "2026-09-23T18:27:02Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1739916,
       "digest": "sha256:f1e085dfb2166065139baabea097d750d9505e6dac52baeafc85679ff56e2b1f",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-09-23T18:27:02Z",
       "updated_at": "2026-09-23T18:27:05Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.xz"

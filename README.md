@@ -32,7 +32,7 @@ Total: **55,375** lines of code across **505** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.3` (2026-09-23)
-- **Last commit**: 2026-09-25
+- **Last commit**: 2026-09-28
 - **Assets in release**: 8
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **55,375** lines of code across **505** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1037 · **Open PRs**: 75 · **Closed issues**: 406 · **Open issues**: 98 · **Commits**: 4764
+- **Releases**: 59 · **Merged PRs**: 1038 · **Open PRs**: 76 · **Closed issues**: 406 · **Open issues**: 98 · **Commits**: 4765
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 1 | 13 | 11 | 1 | 7 | 40 |
-| last60d | 2026-07-30 | 3 | 24 | 14 | 2 | 11 | 65 |
-| 90d | 2026-06-30 | 5 | 50 | 19 | 10 | 13 | 133 |
-| last180d | 2026-04-01 | 7 | 80 | 22 | 23 | 16 | 205 |
-| 360d | 2025-10-03 | 13 | 218 | 54 | 56 | 33 | 503 |
-| last720d | 2024-10-08 | 22 | 389 | 70 | 104 | 45 | 1096 |
+| 30d | 2026-08-30 | 1 | 14 | 12 | 1 | 7 | 41 |
+| last60d | 2026-07-31 | 3 | 25 | 14 | 2 | 11 | 66 |
+| 90d | 2026-07-01 | 5 | 50 | 20 | 10 | 13 | 134 |
+| last180d | 2026-04-02 | 7 | 81 | 23 | 23 | 15 | 206 |
+| 360d | 2025-10-04 | 13 | 219 | 55 | 56 | 33 | 504 |
+| last720d | 2024-10-09 | 22 | 390 | 71 | 104 | 45 | 1097 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:50:20Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T07:14:09Z._

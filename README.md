@@ -32,27 +32,27 @@ Total: **55,479** lines of code across **507** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.3` (2026-09-23)
-- **Last commit**: 2026-09-30
+- **Last commit**: 2026-10-01
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 400 · **Forks**: 291 · **Open issues**: 505 · **Contributors**: 205
+- **Stars**: 401 · **Forks**: 291 · **Open issues**: 505 · **Contributors**: 205
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1040 · **Open PRs**: 76 · **Closed issues**: 407 · **Open issues**: 98 · **Commits**: 4771
+- **Releases**: 59 · **Merged PRs**: 1041 · **Open PRs**: 75 · **Closed issues**: 407 · **Open issues**: 98 · **Commits**: 4772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 1 | 15 | 13 | 2 | 6 | 44 |
-| last60d | 2026-08-02 | 3 | 25 | 15 | 3 | 11 | 69 |
-| 90d | 2026-07-03 | 5 | 51 | 21 | 10 | 13 | 137 |
-| last180d | 2026-04-04 | 7 | 82 | 24 | 24 | 15 | 209 |
-| 360d | 2025-10-06 | 13 | 220 | 56 | 56 | 32 | 507 |
-| last720d | 2024-10-11 | 22 | 392 | 71 | 105 | 45 | 1103 |
+| 30d | 2026-09-02 | 1 | 16 | 12 | 2 | 6 | 45 |
+| last60d | 2026-08-03 | 3 | 26 | 14 | 3 | 11 | 70 |
+| 90d | 2026-07-04 | 5 | 52 | 20 | 10 | 13 | 138 |
+| last180d | 2026-04-05 | 7 | 83 | 23 | 24 | 15 | 210 |
+| 360d | 2025-10-07 | 13 | 221 | 55 | 56 | 32 | 508 |
+| last720d | 2024-10-12 | 22 | 393 | 70 | 105 | 45 | 1104 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T07:15:32Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T06:57:15Z._

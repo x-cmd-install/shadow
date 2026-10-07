@@ -47,12 +47,12 @@ Total: **55,630** lines of code across **507** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 1 | 16 | 13 | 2 | 6 | 42 |
-| last60d | 2026-08-07 | 3 | 24 | 15 | 2 | 10 | 72 |
-| 90d | 2026-07-08 | 5 | 49 | 21 | 10 | 13 | 125 |
-| last180d | 2026-04-09 | 7 | 82 | 24 | 24 | 15 | 210 |
-| 360d | 2025-10-11 | 13 | 222 | 56 | 56 | 32 | 498 |
-| last720d | 2024-10-16 | 22 | 388 | 71 | 103 | 45 | 1100 |
+| 30d | 2026-09-07 | 1 | 14 | 13 | 2 | 6 | 42 |
+| last60d | 2026-08-08 | 3 | 24 | 15 | 2 | 10 | 72 |
+| 90d | 2026-07-09 | 5 | 49 | 21 | 10 | 13 | 125 |
+| last180d | 2026-04-10 | 7 | 82 | 24 | 24 | 15 | 210 |
+| 360d | 2025-10-12 | 13 | 222 | 55 | 56 | 32 | 498 |
+| last720d | 2024-10-17 | 22 | 387 | 71 | 103 | 45 | 1100 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:55:31Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:19:24Z._

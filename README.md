@@ -14,13 +14,13 @@ x install shadow
 
 ## Code insight
 
-Total: **55,630** lines of code across **507** files in the top 5 languages.
+Total: **55,740** lines of code across **507** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 30,336 | 8,699 | 5,879 | 230 |
 | Xml | 12,484 | 705 | 281 | 111 |
-| Python | 5,660 | 24 | 1,095 | 38 |
+| Python | 5,770 | 24 | 1,115 | 38 |
 | CHeader | 2,474 | 864 | 1,355 | 107 |
 | Sh | 2,156 | 150 | 197 | 21 |
 
@@ -32,7 +32,7 @@ Total: **55,630** lines of code across **507** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.3` (2026-09-23)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-10-14
 - **Assets in release**: 8
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **55,630** lines of code across **507** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1043 · **Open PRs**: 77 · **Closed issues**: 407 · **Open issues**: 99 · **Commits**: 4778
+- **Releases**: 59 · **Merged PRs**: 1044 · **Open PRs**: 76 · **Closed issues**: 407 · **Open issues**: 99 · **Commits**: 4783
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 1 | 10 | 12 | 1 | 6 | 0 |
-| last60d | 2026-08-15 | 1 | 23 | 17 | 2 | 10 | 0 |
-| 90d | 2026-07-16 | 5 | 44 | 19 | 9 | 14 | 0 |
-| last180d | 2026-04-17 | 7 | 81 | 26 | 23 | 16 | 0 |
-| 360d | 2025-10-19 | 13 | 217 | 56 | 56 | 33 | 0 |
-| last720d | 2024-10-24 | 22 | 383 | 72 | 103 | 46 | 1097 |
+| 30d | 2026-09-15 | 1 | 11 | 11 | 1 | 6 | 26 |
+| last60d | 2026-08-16 | 1 | 24 | 16 | 2 | 10 | 77 |
+| 90d | 2026-07-17 | 5 | 42 | 18 | 8 | 13 | 106 |
+| last180d | 2026-04-18 | 7 | 82 | 25 | 23 | 16 | 204 |
+| 360d | 2025-10-20 | 13 | 218 | 55 | 56 | 33 | 499 |
+| last720d | 2024-10-25 | 22 | 384 | 71 | 103 | 46 | 1102 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T06:19:50Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T06:02:21Z._

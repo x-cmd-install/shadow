@@ -32,27 +32,27 @@ Total: **55,740** lines of code across **507** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.3` (2026-09-23)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-17
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 404 · **Forks**: 294 · **Open issues**: 507 · **Contributors**: 205
+- **Stars**: 405 · **Forks**: 294 · **Open issues**: 507 · **Contributors**: 208
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1044 · **Open PRs**: 79 · **Closed issues**: 407 · **Open issues**: 100 · **Commits**: 4783
+- **Releases**: 59 · **Merged PRs**: 1045 · **Open PRs**: 78 · **Closed issues**: 407 · **Open issues**: 100 · **Commits**: 4789
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 1 | 9 | 14 | 1 | 6 | 26 |
-| last60d | 2026-08-18 | 1 | 24 | 19 | 2 | 11 | 77 |
-| 90d | 2026-07-19 | 5 | 39 | 21 | 7 | 14 | 106 |
-| last180d | 2026-04-20 | 7 | 81 | 28 | 23 | 17 | 204 |
-| 360d | 2025-10-22 | 13 | 218 | 58 | 56 | 34 | 499 |
-| last720d | 2024-10-27 | 22 | 384 | 74 | 103 | 47 | 1102 |
+| 30d | 2026-09-18 | 1 | 9 | 13 | 1 | 6 | 18 |
+| last60d | 2026-08-19 | 1 | 25 | 18 | 2 | 11 | 78 |
+| 90d | 2026-07-20 | 5 | 39 | 20 | 7 | 14 | 97 |
+| last180d | 2026-04-21 | 7 | 82 | 27 | 23 | 17 | 206 |
+| 360d | 2025-10-23 | 13 | 219 | 57 | 56 | 34 | 501 |
+| last720d | 2024-10-28 | 22 | 385 | 73 | 102 | 47 | 1108 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T05:33:37Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T05:43:50Z._

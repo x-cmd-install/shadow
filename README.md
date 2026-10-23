@@ -47,12 +47,12 @@ Total: **55,939** lines of code across **507** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 11 | 9 | 1 | 5 | 0 |
-| last60d | 2026-08-23 | 1 | 28 | 15 | 2 | 9 | 0 |
-| 90d | 2026-07-24 | 4 | 38 | 18 | 7 | 14 | 0 |
-| last180d | 2026-04-25 | 7 | 84 | 25 | 22 | 17 | 0 |
-| 360d | 2025-10-27 | 13 | 222 | 55 | 55 | 34 | 0 |
-| last720d | 2024-11-01 | 22 | 386 | 71 | 101 | 47 | 1114 |
+| 30d | 2026-09-23 | 1 | 9 | 6 | 1 | 4 | 30 |
+| last60d | 2026-08-24 | 1 | 28 | 14 | 2 | 9 | 90 |
+| 90d | 2026-07-25 | 4 | 38 | 18 | 7 | 14 | 109 |
+| last180d | 2026-04-26 | 7 | 84 | 25 | 22 | 17 | 218 |
+| 360d | 2025-10-28 | 13 | 222 | 55 | 55 | 34 | 513 |
+| last720d | 2024-11-02 | 22 | 386 | 71 | 101 | 47 | 1114 |
 
 ## Release assets
 
@@ -67,6 +67,23 @@ Total: **55,939** lines of code across **507** files in the top 5 languages.
 | [shadow-4.20.3_src.tar.gz](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.gz) | 3.8 MiB | `native/unknown` |
 | [shadow-4.20.3_src.tar.xz](https://github.com/shadow-maint/shadow/releases/download/4.20.3/shadow-4.20.3_src.tar.xz) | 1.7 MiB | `other` |
 
+## Distribution status
+
+Reported by **300** distros on [repology.org](https://repology.org/project/shadow). **30** are ✅ on the latest upstream release, **260** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.20.3` | ✅ latest |
+| Debian 14 | `4.20.3` | ✅ latest |
+| Debian 13 | `4.17.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.17.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.13` | ⚠️ outdated |
+| Arch | `4.20.0.arch1` | ⚠️ outdated |
+| Nix unstable | `4.20.3` | ✅ latest |
+| Void | `4.8.1` | ⚠️ outdated |
+| Alpine edge | `4.20.3` | ✅ latest |
+| openSUSE Tumbleweed | `4.20.3` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `shadow` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -76,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T06:07:49Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:06:14Z._

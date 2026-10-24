@@ -37,22 +37,22 @@ Total: **55,939** lines of code across **507** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 405 · **Forks**: 294 · **Open issues**: 507 · **Contributors**: 208
+- **Stars**: 407 · **Forks**: 294 · **Open issues**: 507 · **Contributors**: 208
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1049 · **Open PRs**: 76 · **Closed issues**: 407 · **Open issues**: 100 · **Commits**: 4801
+- **Releases**: 59 · **Merged PRs**: 1049 · **Open PRs**: 77 · **Closed issues**: 407 · **Open issues**: 100 · **Commits**: 4801
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 9 | 6 | 1 | 4 | 30 |
-| last60d | 2026-08-24 | 1 | 28 | 14 | 2 | 9 | 90 |
-| 90d | 2026-07-25 | 4 | 38 | 18 | 7 | 14 | 109 |
-| last180d | 2026-04-26 | 7 | 84 | 25 | 22 | 17 | 218 |
-| 360d | 2025-10-28 | 13 | 222 | 55 | 55 | 34 | 513 |
-| last720d | 2024-11-02 | 22 | 386 | 71 | 101 | 47 | 1114 |
+| 30d | 2026-09-24 | 0 | 9 | 6 | 1 | 3 | 30 |
+| last60d | 2026-08-25 | 1 | 26 | 15 | 2 | 9 | 90 |
+| 90d | 2026-07-26 | 4 | 38 | 19 | 7 | 14 | 109 |
+| last180d | 2026-04-27 | 7 | 84 | 26 | 22 | 17 | 218 |
+| 360d | 2025-10-29 | 13 | 222 | 56 | 55 | 34 | 513 |
+| last720d | 2024-11-03 | 22 | 385 | 72 | 101 | 47 | 1107 |
 
 ## Release assets
 
@@ -69,7 +69,7 @@ Total: **55,939** lines of code across **507** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **300** distros on [repology.org](https://repology.org/project/shadow). **30** are ✅ on the latest upstream release, **260** are ⚠️ on an older version.
+Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **31** are ✅ on the latest upstream release, **260** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T06:06:14Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:56:11Z._

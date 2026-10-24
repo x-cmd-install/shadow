@@ -1,48 +1,3 @@
-- repo: stalix
-  srcname: bin/shadow
-  binname: bin/shadow
-  visiblename: bin/shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: deepin_25
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.16.0
-  origversion: 1:4.16.0-7deepin1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: shadow
@@ -62,858 +17,7 @@
     - zeha@debian.org
   categories:
     - admin
-- repo: aerynos
-  srcname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  summary: PAM-using login and passwd utilities
-  licenses:
-    - BSD-3-Clause
-- repo: chimera
-  subrepo: main
-  srcname: shadow
-  binname: shadow-devel
-  visiblename: shadow-devel
-  version: 4.17.2
-  origversion: 4.17.2-r0
-  status: outdated
-  summary: Shadow password file utilities (development files)
-  licenses:
-    - BSD-3-Clause
-- repo: exherbo
-  subrepo: arbor
-  srcname: sys-apps/shadow
-  visiblename: sys-apps/shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  summary: User and group management related utilities
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - sys-apps
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_19
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.14.2
-  origversion: 4.14.2-r0
-  status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_20
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.15.1
-  origversion: 4.15.1-r0
-  status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_21
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.16.0
-  origversion: 4.16.0-r1
-  status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.17.3
-  origversion: 4.17.3-r0
-  status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.18.0
-  origversion: 4.18.0-r0
-  status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_3_24
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.18.0
-  origversion: 4.18.0-r1
-  status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-conv
-  visiblename: shadow-conv
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dev
-  visiblename: shadow-dev
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-libs
-  visiblename: shadow-libs
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-login-doc
-  visiblename: shadow-login-doc
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: Login utils from shadow package (documentation)
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: alpine_edge
-  subrepo: community
-  srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
-  version: 4.20.3
-  origversion: 4.20.3-r2
-  status: newest
-  summary: Utilities for using subordinate UIDs and GIDs
-  maintainers:
-    - aelin@postmarketos.org
-  licenses:
-    - BSD-3-Clause
-- repo: deepin_23
+- repo: raspbian_stable
   subrepo: main
   srcname: shadow
   binnames:
@@ -923,15 +27,909 @@
     - libsubid5
     - libsubid-dev
   visiblename: shadow
-  version: 4.16.0
-  origversion: 1:4.16.0-7deepin1
+  version: 4.17.4
+  origversion: 1:4.17.4-2
   status: outdated
   maintainers:
     - pkg-shadow-devel@lists.alioth.debian.org
     - serge@hallyn.com
     - zeha@debian.org
   categories:
-    - misc
+    - admin
+- repo: raspbian_testing
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid6
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 1:4.20.3-1
+  status: newest
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: shadow
+  binnames:
+    - login
+    - passwd
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: aerynos
+  srcname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  summary: PAM-using login and passwd utilities
+  licenses:
+    - BSD-3-Clause
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: shadow
+  binnames:
+    - libsubid-dev
+    - libsubid5
+    - login.defs
+    - passwd
+    - uidmap
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - libdevel
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: chimera
+  subrepo: main
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.17.2
+  origversion: 4.17.2-r0
+  status: outdated
+  summary: Shadow password file utilities (documentation)
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_19
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.14.2
+  origversion: 4.14.2-r0
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_20
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.15.1
+  origversion: 4.15.1-r0
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_21
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.16.0
+  origversion: 4.16.0-r1
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.17.3
+  origversion: 4.17.3-r0
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.18.0
+  origversion: 4.18.0-r0
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.18.0
+  origversion: 4.18.0-r1
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...)
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-conv
+  visiblename: shadow-conv
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: Utilities for converting to and from shadow passwords and groups
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dev
+  visiblename: shadow-dev
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (development files)
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-libs
+  visiblename: shadow-libs
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (libraries)
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: 'Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su'
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-login-doc
+  visiblename: shadow-login-doc
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: Login utils from shadow package (documentation)
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
+- repo: alpine_edge
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: 4.20.3
+  origversion: 4.20.3-r2
+  status: newest
+  summary: Utilities for using subordinate UIDs and GIDs
+  maintainers:
+    - aelin@postmarketos.org
+  licenses:
+    - BSD-3-Clause
 - repo: alt_p11
   srcname: shadow
   binnames:
@@ -1099,23 +1097,23 @@
 - repo: chimera
   subrepo: main
   srcname: shadow
+  binname: shadow-devel
+  visiblename: shadow-devel
+  version: 4.17.2
+  origversion: 4.17.2-r0
+  status: outdated
+  summary: Shadow password file utilities (development files)
+  licenses:
+    - BSD-3-Clause
+- repo: chimera
+  subrepo: main
+  srcname: shadow
   binname: shadow-devel-man
   visiblename: shadow-devel-man
   version: 4.17.2
   origversion: 4.17.2-r0
   status: outdated
   summary: Shadow password file utilities (development files) (manual pages)
-  licenses:
-    - BSD-3-Clause
-- repo: chimera
-  subrepo: main
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: 4.17.2
-  origversion: 4.17.2-r0
-  status: outdated
-  summary: Shadow password file utilities (documentation)
   licenses:
     - BSD-3-Clause
 - repo: chimera
@@ -1149,23 +1147,6 @@
   maintainers:
     - core-ports@crux.nu
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: debian_11
   subrepo: bullseye/main
   srcname: shadow
   binnames:
@@ -1175,6 +1156,23 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1+deb11u1
   status: outdated
   maintainers:
     - pkg-shadow-devel@lists.alioth.debian.org
@@ -1255,6 +1253,59 @@
     - bubulle@debian.org
     - rbalint@ubuntu.com
     - serge@hallyn.com
+- repo: deepin_23
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.16.0
+  origversion: 1:4.16.0-7deepin1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.16.0
+  origversion: 1:4.16.0-7deepin1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
 - repo: distri
   srcname: shadow
   binname: shadow
@@ -1262,17 +1313,18 @@
   version: 4.8.1
   origversion: 4.8.1-9
   status: outdated
-- repo: stalix_dev
-  srcname: bin/shadow
-  binname: bin/shadow
-  visiblename: bin/shadow
+- repo: exherbo
+  subrepo: arbor
+  srcname: sys-apps/shadow
+  visiblename: sys-apps/shadow
   version: 4.20.3
   origversion: null
   status: newest
+  summary: User and group management related utilities
   maintainers:
-    - anton@samokhvalov.xyz
+    - fallback-mnt-exherbo@repology
   categories:
-    - bin
+    - sys-apps
 - repo: gentoo
   srcname: sys-apps/shadow
   visiblename: sys-apps/shadow
@@ -1879,18 +1931,6 @@
     - BSD
   categories:
     - Applications/Security
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-expiry
-  visiblename: shadow-expiry
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: shadow
@@ -2030,6 +2070,18 @@
   categories:
     - System/Base
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 4.8.1-150600.15.45
+  status: legacy
+  summary: Utilities to Manage User and Group Accounts
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-or-later
+  categories:
+    - System/Base
+- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: shadow
   visiblename: shadow
@@ -2071,18 +2123,6 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 4.8.1-150600.17.9.1
-  status: legacy
-  summary: Utilities to Manage User and Group Accounts
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-or-later
-  categories:
-    - System/Base
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 4.8.1-150600.15.45
   status: legacy
   summary: Utilities to Manage User and Group Accounts
   licenses:
@@ -2174,6 +2214,18 @@
   srcname: feeds/packages/utils/shadow
   binname: shadow-common
   visiblename: shadow-common
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-expiry
+  visiblename: shadow-expiry
   version: 4.8.1
   origversion: 4.8.1-3
   status: outdated
@@ -2974,23 +3026,6 @@
     - 0BSD
     - BSD-3-Clause
 - repo: pardus_21
-  subrepo: updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: pardus_21
   subrepo: main
   srcname: shadow
   binnames:
@@ -3007,8 +3042,25 @@
     - serge@hallyn.com
   categories:
     - admin
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: shadow
   binnames:
     - passwd
@@ -3027,7 +3079,7 @@
   categories:
     - admin
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: shadow
   binnames:
     - passwd
@@ -3073,80 +3125,6 @@
   status: outdated
   licenses:
     - BSD-3-Clause
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: shadow
-  binnames:
-    - login
-    - passwd
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: shadow
-  binnames:
-    - libsubid-dev
-    - libsubid5
-    - login.defs
-    - passwd
-    - uidmap
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - libdevel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: raspbian_testing
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid6
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 1:4.20.3-1
-  status: newest
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
 - repo: ravenports
   srcname: shadow
   binname: shadow
@@ -3267,6 +3245,38 @@
     - fallback-mnt-spack@repology
   licenses:
     - BSD-3-Clause
+- repo: stalix
+  srcname: bin/shadow
+  binname: bin/shadow
+  visiblename: bin/shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/shadow
+  binname: bin/shadow
+  visiblename: bin/shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: main
+  srcname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 4.20.3-1
+  status: newest
+  summary: Programs for handling passwords in a secure way
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: shadow
   visiblename: shadow
@@ -3447,6 +3457,40 @@
   summary: Programs for handling passwords in a secure way
   maintainers:
     - wonkru-dev@proton.me
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
+  visiblename: shadow
+  version: "4.13"
+  origversion: 1:4.13+dfsg1-1+deb12u2
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: shadow
+  binname: shadow-dbg
+  visiblename: shadow-dbg
+  version: "4.13"
+  origversion: 4.13-r4
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
 - repo: adelie_current
   subrepo: system
   srcname: shadow
@@ -3666,20 +3710,6 @@
   origversion: 4.13-r4
   status: outdated
   summary: Utilities for converting to and from shadow passwords and groups
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: shadow
-  binname: shadow-dbg
-  visiblename: shadow-dbg
-  version: "4.13"
-  origversion: 4.13-r4
-  status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
   maintainers:
     - developer@it-offshore.co.uk
   licenses:
@@ -3935,23 +3965,21 @@
     - balint@balintreczey.hu
     - serge@hallyn.com
   vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
   srcname: shadow
   binnames:
     - passwd
     - login
     - uidmap
-    - libsubid4
-    - libsubid-dev
   visiblename: shadow
-  version: "4.13"
-  origversion: 1:4.13+dfsg1-1+deb12u2
+  version: 4.1.5.1
+  origversion: 1:4.1.5.1-1ubuntu9.5
   status: outdated
   maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - bubulle@debian.org
+    - nicolas.francois@centraliens.net
   categories:
     - admin
   vulnerable: true
@@ -3965,24 +3993,6 @@
   visiblename: shadow
   version: 4.1.5.1
   origversion: 1:4.1.5.1-1ubuntu9
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bubulle@debian.org
-    - nicolas.francois@centraliens.net
-  categories:
-    - admin
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.1.5.1
-  origversion: 1:4.1.5.1-1ubuntu9.5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4028,7 +4038,7 @@
     - admin
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic-updates/main
+  subrepo: bionic/main
   srcname: shadow
   binnames:
     - passwd
@@ -4036,7 +4046,7 @@
     - uidmap
   visiblename: shadow
   version: "4.5"
-  origversion: 1:4.5-1ubuntu2.5
+  origversion: 1:4.5-1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4047,7 +4057,7 @@
     - admin
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/main
+  subrepo: bionic-updates/main
   srcname: shadow
   binnames:
     - passwd
@@ -4055,7 +4065,7 @@
     - uidmap
   visiblename: shadow
   version: "4.5"
-  origversion: 1:4.5-1ubuntu1
+  origversion: 1:4.5-1ubuntu2.5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

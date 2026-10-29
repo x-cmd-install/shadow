@@ -14,13 +14,13 @@ x install shadow
 
 ## Code insight
 
-Total: **55,945** lines of code across **507** files in the top 5 languages.
+Total: **56,007** lines of code across **507** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 30,373 | 8,710 | 5,886 | 230 |
 | Xml | 12,484 | 705 | 281 | 111 |
-| Python | 5,938 | 24 | 1,149 | 38 |
+| Python | 6,000 | 24 | 1,159 | 38 |
 | CHeader | 2,474 | 864 | 1,355 | 107 |
 | Sh | 2,156 | 150 | 197 | 21 |
 
@@ -32,27 +32,27 @@ Total: **55,945** lines of code across **507** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.3` (2026-09-23)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-28
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 407 · **Forks**: 294 · **Open issues**: 507 · **Contributors**: 208
+- **Stars**: 408 · **Forks**: 294 · **Open issues**: 507 · **Contributors**: 208
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1051 · **Open PRs**: 76 · **Closed issues**: 408 · **Open issues**: 99 · **Commits**: 4803
+- **Releases**: 59 · **Merged PRs**: 1052 · **Open PRs**: 75 · **Closed issues**: 408 · **Open issues**: 99 · **Commits**: 4805
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 0 | 9 | 4 | 1 | 2 | 19 |
-| last60d | 2026-08-29 | 1 | 25 | 14 | 3 | 8 | 76 |
-| 90d | 2026-07-30 | 3 | 36 | 17 | 4 | 12 | 101 |
-| last180d | 2026-05-01 | 7 | 81 | 25 | 22 | 16 | 216 |
-| 360d | 2025-11-02 | 13 | 224 | 55 | 56 | 33 | 508 |
-| last720d | 2024-11-07 | 22 | 383 | 71 | 102 | 46 | 1 |
+| 30d | 2026-09-29 | 0 | 9 | 4 | 0 | 2 | 19 |
+| last60d | 2026-08-30 | 1 | 26 | 13 | 3 | 8 | 78 |
+| 90d | 2026-07-31 | 3 | 37 | 15 | 4 | 12 | 103 |
+| last180d | 2026-05-02 | 7 | 82 | 24 | 22 | 16 | 218 |
+| 360d | 2025-11-03 | 13 | 222 | 54 | 56 | 32 | 510 |
+| last720d | 2024-11-08 | 22 | 383 | 70 | 102 | 46 | 1110 |
 
 ## Release assets
 
@@ -69,7 +69,7 @@ Total: **55,945** lines of code across **507** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **31** are ✅ on the latest upstream release, **260** are ⚠️ on an older version.
+Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **32** are ✅ on the latest upstream release, **259** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T07:09:35Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T07:11:37Z._

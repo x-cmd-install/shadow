@@ -1092,23 +1092,6 @@
   licenses:
     - BSD and GPL-2
 - repo: debian_11
-  subrepo: bullseye/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: debian_11
   subrepo: bullseye-security/main
   srcname: shadow
   binnames:
@@ -1118,6 +1101,23 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 1:4.8.1-1+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
   status: outdated
   maintainers:
     - pkg-shadow-devel@lists.alioth.debian.org
@@ -2990,23 +2990,6 @@
     - 0BSD
     - BSD-3-Clause
 - repo: pardus_21
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: pardus_21
   subrepo: updates/main
   srcname: shadow
   binnames:
@@ -3016,6 +2999,23 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 1:4.8.1-1+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: pardus_21
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
   status: outdated
   maintainers:
     - pkg-shadow-devel@lists.alioth.debian.org
@@ -3291,23 +3291,6 @@
   categories:
     - base/system
 - repo: ubuntu_20_04
-  subrepo: focal/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1ubuntu5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: ubuntu_20_04
   subrepo: focal-updates/main
   srcname: shadow
   binnames:
@@ -3324,8 +3307,8 @@
     - serge@hallyn.com
   categories:
     - admin
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/main
+- repo: ubuntu_20_04
+  subrepo: focal/main
   srcname: shadow
   binnames:
     - passwd
@@ -3333,11 +3316,11 @@
     - uidmap
   visiblename: shadow
   version: 4.8.1
-  origversion: 1:4.8.1-2ubuntu2.2
+  origversion: 1:4.8.1-1ubuntu5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-    - balint@balintreczey.hu
+    - rbalint@ubuntu.com
     - serge@hallyn.com
   categories:
     - admin
@@ -3351,6 +3334,23 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 1:4.8.1-2ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - balint@balintreczey.hu
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-2ubuntu2.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4076,25 +4076,6 @@
     - admin
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-    - libsubid4
-    - libsubid-dev
-  visiblename: shadow
-  version: "4.13"
-  origversion: 1:4.13+dfsg1-4ubuntu3.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble/main
   srcname: shadow
   binnames:
@@ -4106,6 +4087,25 @@
   visiblename: shadow
   version: "4.13"
   origversion: 1:4.13+dfsg1-4ubuntu3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
+  visiblename: shadow
+  version: "4.13"
+  origversion: 1:4.13+dfsg1-4ubuntu3.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

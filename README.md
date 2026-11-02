@@ -47,12 +47,12 @@ Total: **56,006** lines of code across **507** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 8 | 11 | 0 | 3 | 13 |
-| last60d | 2026-09-02 | 1 | 27 | 20 | 3 | 8 | 75 |
-| 90d | 2026-08-03 | 3 | 37 | 22 | 4 | 13 | 101 |
-| last180d | 2026-05-05 | 7 | 83 | 31 | 22 | 17 | 214 |
-| 360d | 2025-11-06 | 13 | 219 | 61 | 55 | 33 | 509 |
-| last720d | 2024-11-11 | 22 | 382 | 77 | 101 | 47 | 1111 |
+| 30d | 2026-10-03 | 0 | 8 | 11 | 0 | 3 | 13 |
+| last60d | 2026-09-03 | 1 | 27 | 20 | 3 | 8 | 75 |
+| 90d | 2026-08-04 | 3 | 37 | 22 | 4 | 12 | 101 |
+| last180d | 2026-05-06 | 7 | 82 | 31 | 22 | 17 | 214 |
+| 360d | 2025-11-07 | 13 | 219 | 61 | 55 | 33 | 509 |
+| last720d | 2024-11-12 | 22 | 380 | 77 | 101 | 47 | 1105 |
 
 ## Release assets
 
@@ -69,7 +69,7 @@ Total: **56,006** lines of code across **507** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **32** are ✅ on the latest upstream release, **259** are ⚠️ on an older version.
+Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **33** are ✅ on the latest upstream release, **258** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:32:37Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:40:08Z._

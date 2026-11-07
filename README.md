@@ -14,11 +14,11 @@ x install shadow
 
 ## Code insight
 
-Total: **56,217** lines of code across **507** files in the top 5 languages.
+Total: **56,264** lines of code across **507** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 30,356 | 8,699 | 5,882 | 230 |
+| C | 30,403 | 8,684 | 5,889 | 230 |
 | Xml | 12,484 | 705 | 281 | 111 |
 | Python | 6,227 | 24 | 1,199 | 38 |
 | CHeader | 2,474 | 864 | 1,355 | 107 |
@@ -37,22 +37,22 @@ Total: **56,217** lines of code across **507** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 411 · **Forks**: 293 · **Open issues**: 508 · **Contributors**: 207
+- **Stars**: 412 · **Forks**: 293 · **Open issues**: 508 · **Contributors**: 207
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1060 · **Open PRs**: 80 · **Closed issues**: 410 · **Open issues**: 98 · **Commits**: 4822
+- **Releases**: 59 · **Merged PRs**: 1061 · **Open PRs**: 80 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4849
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 14 | 8 | 2 | 1 | 28 |
-| last60d | 2026-09-07 | 1 | 31 | 18 | 5 | 6 | 90 |
-| 90d | 2026-08-08 | 3 | 41 | 20 | 5 | 10 | 116 |
-| last180d | 2026-05-10 | 7 | 89 | 29 | 24 | 15 | 229 |
-| 360d | 2025-11-11 | 13 | 226 | 59 | 57 | 31 | 524 |
-| last720d | 2024-11-16 | 22 | 383 | 75 | 100 | 45 | 1118 |
+| 30d | 2026-10-08 | 0 | 14 | 9 | 2 | 1 | 30 |
+| last60d | 2026-09-08 | 1 | 31 | 18 | 5 | 5 | 117 |
+| 90d | 2026-08-09 | 2 | 42 | 20 | 6 | 9 | 143 |
+| last180d | 2026-05-11 | 7 | 90 | 29 | 25 | 14 | 256 |
+| 360d | 2025-11-12 | 13 | 227 | 59 | 58 | 30 | 551 |
+| last720d | 2024-11-17 | 22 | 382 | 75 | 101 | 44 | 1145 |
 
 ## Release assets
 
@@ -69,7 +69,7 @@ Total: **56,217** lines of code across **507** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **33** are ✅ on the latest upstream release, **258** are ⚠️ on an older version.
+Reported by **302** distros on [repology.org](https://repology.org/project/shadow). **33** are ✅ on the latest upstream release, **259** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T08:12:14Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:27:36Z._

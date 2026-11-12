@@ -1,47 +1,57 @@
-- repo: nix_stable_25_05
-  srcname: su
-  visiblename: shadow
-  version: 4.17.4
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
+- repo: openkylin_3_0
+  subrepo: huanghe/main
   srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
   visiblename: shadow
-  version: 4.18.0
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
+  version: 4.14.3
+  origversion: 1:4.14.3-ok3.5
+  status: legacy
   maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
-  srcname: su
-  visiblename: shadow
-  version: 4.18.0
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_24_11
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
   visiblename: shadow
-  version: 4.16.0
-  origversion: null
+  version: 4.8.1
+  origversion: 1:4.8.1-1
   status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
   maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: raspbian_testing
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid6
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 1:4.20.3-1
+  status: newest
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
 - repo: aerynos
   srcname: shadow
   visiblename: shadow
@@ -857,17 +867,6 @@
     - aelin@postmarketos.org
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_24_11
-  srcname: su
-  visiblename: shadow
-  version: 4.16.0
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: alpine_edge
   subrepo: community
   srcname: shadow
@@ -1109,23 +1108,6 @@
   maintainers:
     - core-ports@crux.nu
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: debian_11
   subrepo: bullseye/main
   srcname: shadow
   binnames:
@@ -1135,6 +1117,23 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1+deb11u1
   status: outdated
   maintainers:
     - pkg-shadow-devel@lists.alioth.debian.org
@@ -1251,23 +1250,6 @@
     - pkg-shadow-devel@lists.alioth.debian.org
     - serge@hallyn.com
     - zeha@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: shadow
@@ -1294,6 +1276,24 @@
   version: 4.8.1
   origversion: 4.8.1-9
   status: outdated
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.14.3
+  origversion: 1:4.14.3-ok3.5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
 - repo: exherbo
   subrepo: arbor
   srcname: sys-apps/shadow
@@ -1348,17 +1348,6 @@
     - GPL-2
   categories:
     - sys-apps
-- repo: nix_stable_25_05
-  srcname: shadow
-  visiblename: shadow
-  version: 4.17.4
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: glaucus
   srcname: shadow
   visiblename: shadow
@@ -1525,6 +1514,72 @@
   srcname: su
   visiblename: shadow
   version: 4.14.6
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: shadow
+  visiblename: shadow
+  version: 4.16.0
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: su
+  visiblename: shadow
+  version: 4.16.0
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: shadow
+  visiblename: shadow
+  version: 4.17.4
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: su
+  visiblename: shadow
+  version: 4.17.4
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: shadow
+  visiblename: shadow
+  version: 4.18.0
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: su
+  visiblename: shadow
+  version: 4.18.0
   origversion: null
   status: outdated
   summary: Suite containing authentication-related tools such as passwd and su
@@ -1778,42 +1833,6 @@
   version: 4.14.3
   origversion: 1:4.14.3-ok3.5
   status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-    - libsubid4
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.14.3
-  origversion: 1:4.14.3-ok3.5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: openkylin_3_0
-  subrepo: huanghe/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-    - libsubid4
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.14.3
-  origversion: 1:4.14.3-ok3.5
-  status: legacy
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - serge@hallyn.com
@@ -2567,20 +2586,6 @@
     - fallback-mnt-openwrt@repology
   categories:
     - utils
-- repo: solus
-  srcname: shadow
-  binname: shadow-devel
-  visiblename: shadow-devel
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  summary: Development files for shadow
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - programming.devel
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/utils/shadow
@@ -2665,6 +2670,20 @@
     - fallback-mnt-openwrt@repology
   categories:
     - utils
+- repo: solus
+  srcname: shadow
+  binname: shadow-dbginfo
+  visiblename: shadow-dbginfo
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  summary: Debug symbols for shadow
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - debug
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/utils/shadow
@@ -2966,23 +2985,6 @@
     - 0BSD
     - BSD-3-Clause
 - repo: pardus_21
-  subrepo: updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: pardus_21
   subrepo: main
   srcname: shadow
   binnames:
@@ -2999,8 +3001,25 @@
     - serge@hallyn.com
   categories:
     - admin
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: shadow
   binnames:
     - passwd
@@ -3019,7 +3038,7 @@
   categories:
     - admin
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: shadow
   binnames:
     - passwd
@@ -3120,25 +3139,6 @@
     - zeha@debian.org
   categories:
     - admin
-- repo: raspbian_testing
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid6
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 1:4.20.3-1
-  status: newest
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
 - repo: ravenports
   srcname: shadow
   binname: shadow
@@ -3223,18 +3223,18 @@
     - system.base
 - repo: solus
   srcname: shadow
-  binname: shadow-dbginfo
-  visiblename: shadow-dbginfo
+  binname: shadow-devel
+  visiblename: shadow-devel
   version: 4.19.4
   origversion: null
   status: outdated
-  summary: Debug symbols for shadow
+  summary: Development files for shadow
   maintainers:
     - maddock.evan@vivaldi.net
   licenses:
     - BSD-3-Clause
   categories:
-    - debug
+    - programming.devel
 - repo: spack
   srcname: shadow
   visiblename: shadow
@@ -3495,6 +3495,24 @@
   summary: Programs for handling passwords in a secure way
   maintainers:
     - wonkru-dev@proton.me
+- repo: apertis_v2024
+  subrepo: v2024/target
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
+  visiblename: shadow
+  version: "4.13"
+  origversion: 1:4.13+dfsg1-1+deb12u2+apertis0
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  vulnerable: true
 - repo: adelie_current
   subrepo: system
   srcname: shadow
@@ -3817,24 +3835,6 @@
   licenses:
     - BSD-3-Clause
   vulnerable: true
-- repo: apertis_v2024
-  subrepo: v2024/target
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-    - libsubid4
-    - libsubid-dev
-  visiblename: shadow
-  version: "4.13"
-  origversion: 1:4.13+dfsg1-1+deb12u2+apertis0
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  vulnerable: true
 - repo: apertis_v2025
   subrepo: v2025/target
   srcname: shadow
@@ -4040,24 +4040,6 @@
     - admin
   vulnerable: true
 - repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: "4.2"
-  origversion: 1:4.2-3.1ubuntu5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bubulle@debian.org
-    - nicolas.francois@centraliens.net
-  categories:
-    - admin
-  vulnerable: true
-- repo: ubuntu_16_04
   subrepo: xenial-updates/main
   srcname: shadow
   binnames:
@@ -4067,6 +4049,24 @@
   visiblename: shadow
   version: "4.2"
   origversion: 1:4.2-3.1ubuntu5.4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - bubulle@debian.org
+    - nicolas.francois@centraliens.net
+  categories:
+    - admin
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: "4.2"
+  origversion: 1:4.2-3.1ubuntu5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4114,25 +4114,6 @@
     - admin
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-    - libsubid4
-    - libsubid-dev
-  visiblename: shadow
-  version: "4.13"
-  origversion: 1:4.13+dfsg1-4ubuntu3.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble/main
   srcname: shadow
   binnames:
@@ -4144,6 +4125,25 @@
   visiblename: shadow
   version: "4.13"
   origversion: 1:4.13+dfsg1-4ubuntu3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
+  visiblename: shadow
+  version: "4.13"
+  origversion: 1:4.13+dfsg1-4ubuntu3.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

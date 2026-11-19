@@ -32,27 +32,27 @@ Total: **56,319** lines of code across **509** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.3` (2026-09-23)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-19
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 413 · **Forks**: 295 · **Open issues**: 508 · **Contributors**: 207
+- **Stars**: 413 · **Forks**: 296 · **Open issues**: 508 · **Contributors**: 208
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1065 · **Open PRs**: 80 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4858
+- **Releases**: 59 · **Merged PRs**: 1066 · **Open PRs**: 81 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4859
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 12 | 10 | 0 | 1 | 23 |
-| last60d | 2026-09-18 | 1 | 28 | 16 | 5 | 3 | 72 |
-| 90d | 2026-08-19 | 1 | 44 | 21 | 6 | 8 | 148 |
-| last180d | 2026-05-21 | 7 | 92 | 30 | 23 | 14 | 257 |
-| 360d | 2025-11-22 | 13 | 229 | 59 | 58 | 30 | 537 |
-| last720d | 2024-11-27 | 22 | 382 | 74 | 101 | 44 | 1152 |
+| 30d | 2026-10-20 | 0 | 11 | 11 | 0 | 1 | 24 |
+| last60d | 2026-09-20 | 1 | 27 | 17 | 5 | 3 | 73 |
+| 90d | 2026-08-21 | 1 | 44 | 22 | 6 | 8 | 149 |
+| last180d | 2026-05-23 | 7 | 93 | 31 | 22 | 14 | 258 |
+| 360d | 2025-11-24 | 13 | 230 | 60 | 58 | 30 | 538 |
+| last720d | 2024-11-29 | 22 | 383 | 75 | 101 | 44 | 1152 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:56:16Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:32:57Z._

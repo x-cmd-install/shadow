@@ -41,18 +41,18 @@ Total: **56,309** lines of code across **509** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1067 · **Open PRs**: 80 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4861
+- **Releases**: 59 · **Merged PRs**: 1067 · **Open PRs**: 81 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4861
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 11 | 11 | 0 | 1 | 0 |
-| last60d | 2026-09-21 | 1 | 27 | 17 | 5 | 3 | 0 |
-| 90d | 2026-08-22 | 1 | 45 | 20 | 6 | 7 | 0 |
-| last180d | 2026-05-24 | 7 | 94 | 30 | 22 | 14 | 0 |
-| 360d | 2025-11-25 | 13 | 230 | 59 | 58 | 30 | 0 |
-| last720d | 2024-11-30 | 22 | 384 | 74 | 101 | 44 | 1154 |
+| 30d | 2026-10-22 | 0 | 11 | 12 | 0 | 1 | 24 |
+| last60d | 2026-09-22 | 1 | 26 | 17 | 4 | 3 | 73 |
+| 90d | 2026-08-23 | 1 | 45 | 21 | 6 | 6 | 151 |
+| last180d | 2026-05-25 | 7 | 94 | 31 | 22 | 14 | 260 |
+| 360d | 2025-11-26 | 13 | 230 | 60 | 58 | 30 | 540 |
+| last720d | 2024-12-01 | 22 | 384 | 75 | 101 | 44 | 1154 |
 
 ## Release assets
 
@@ -69,7 +69,7 @@ Total: **56,309** lines of code across **509** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **303** distros on [repology.org](https://repology.org/project/shadow). **34** are ✅ on the latest upstream release, **259** are ⚠️ on an older version.
+Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **34** are ✅ on the latest upstream release, **257** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:26:17Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:48:57Z._

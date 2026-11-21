@@ -1,3 +1,652 @@
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-passwd
+  visiblename: shadow-passwd
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-pwck
+  visiblename: shadow-pwck
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-pwconv
+  visiblename: shadow-pwconv
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-pwunconv
+  visiblename: shadow-pwunconv
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-su
+  visiblename: shadow-su
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-useradd
+  visiblename: shadow-useradd
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-userdel
+  visiblename: shadow-userdel
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-usermod
+  visiblename: shadow-usermod
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-utils
+  visiblename: shadow-utils
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-vipw
+  visiblename: shadow-vipw
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 4.8.1-3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-chage
+  visiblename: shadow-chage
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-chfn
+  visiblename: shadow-chfn
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-chgpasswd
+  visiblename: shadow-chgpasswd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-chpasswd
+  visiblename: shadow-chpasswd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-chsh
+  visiblename: shadow-chsh
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-common
+  visiblename: shadow-common
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-expiry
+  visiblename: shadow-expiry
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-faillog
+  visiblename: shadow-faillog
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-gpasswd
+  visiblename: shadow-gpasswd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-groupadd
+  visiblename: shadow-groupadd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-groupdel
+  visiblename: shadow-groupdel
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-groupmems
+  visiblename: shadow-groupmems
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-groupmod
+  visiblename: shadow-groupmod
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-groups
+  visiblename: shadow-groups
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-grpck
+  visiblename: shadow-grpck
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-grpconv
+  visiblename: shadow-grpconv
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-grpunconv
+  visiblename: shadow-grpunconv
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-lastlog
+  visiblename: shadow-lastlog
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-login
+  visiblename: shadow-login
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-logoutd
+  visiblename: shadow-logoutd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-newgidmap
+  visiblename: shadow-newgidmap
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-newgrp
+  visiblename: shadow-newgrp
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-newuidmap
+  visiblename: shadow-newuidmap
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-newusers
+  visiblename: shadow-newusers
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-nologin
+  visiblename: shadow-nologin
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-passwd
+  visiblename: shadow-passwd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-pwck
+  visiblename: shadow-pwck
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-pwconv
+  visiblename: shadow-pwconv
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-pwunconv
+  visiblename: shadow-pwunconv
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-su
+  visiblename: shadow-su
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-useradd
+  visiblename: shadow-useradd
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-userdel
+  visiblename: shadow-userdel
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-usermod
+  visiblename: shadow-usermod
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-utils
+  visiblename: shadow-utils
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow-vipw
+  visiblename: shadow-vipw
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 4.8.1-r3
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+- repo: parabola
+  subrepo: core
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.20.0.arch1
+  origversion: 4.20.0.arch1-1
+  status: outdated
+  summary: Password and account management tool suite with support for shadow files and PAM
+  licenses:
+    - 0BSD
+    - BSD-3-Clause
+- repo: pardus_21
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1+deb11u1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: pisi_main
+  subrepo: core
+  srcname: system/base/shadow
+  visiblename: shadow
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  summary: Utilities to deal with user accounts
+  maintainers:
+    - admins@pisilinux.org
+  licenses:
+    - BSD
+  categories:
+    - app:console
+- repo: pld
+  srcname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 4.20.3-1
+  status: newest
 - repo: ptxdist
   srcname: shadow
   visiblename: shadow
@@ -6,8 +655,63 @@
   status: outdated
   licenses:
     - BSD-3-Clause
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: shadow
+  binnames:
+    - login
+    - passwd
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: shadow
+  binnames:
+    - libsubid-dev
+    - libsubid5
+    - login.defs
+    - passwd
+    - uidmap
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - libdevel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: raspbian_testing
+  subrepo: main
   srcname: shadow
   binnames:
     - passwd
@@ -25,6 +729,390 @@
     - zeha@debian.org
   categories:
     - admin
+- repo: ravenports
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  summary: Password and admin tools for Linux
+  maintainers:
+    - fallback-mnt-ravenports@repology
+  categories:
+    - sysutils
+- repo: side
+  srcname: system/base/shadow
+  visiblename: shadow
+  version: 4.18.0
+  origversion: null
+  status: outdated
+  summary: Utilities to deal with user accounts.
+  maintainers:
+    - uglyside@yandex.ru
+  licenses:
+    - BSD-3-Clause
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: shadow
+  visiblename: shadow
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: shadow
+  visiblename: shadow
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: solus
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  summary: login and password tools
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - system.base
+- repo: solus
+  srcname: shadow
+  binname: shadow-dbginfo
+  visiblename: shadow-dbginfo
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  summary: Debug symbols for shadow
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - debug
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1ubuntu5.20.04.5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: solus
+  srcname: shadow
+  binname: shadow-devel
+  visiblename: shadow-devel
+  version: 4.19.4
+  origversion: null
+  status: outdated
+  summary: Development files for shadow
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - programming.devel
+- repo: spack
+  srcname: shadow
+  visiblename: shadow
+  version: 4.16.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - BSD-3-Clause
+- repo: stalix
+  srcname: bin/shadow
+  binname: bin/shadow
+  visiblename: bin/shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/shadow
+  binname: bin/shadow
+  visiblename: bin/shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: main
+  srcname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 4.20.3-1
+  status: newest
+  summary: Programs for handling passwords in a secure way
+  maintainers:
+    - starkos@disroot.org
+- repo: t2
+  srcname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: null
+  status: newest
+  summary: Utils for managing users and (shadow) passwords
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - BSD
+  categories:
+    - base/system
+- repo: ubuntu_20_04
+  subrepo: focal/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1ubuntu5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-2ubuntu2.2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - balint@balintreczey.hu
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: ubuntu_22_04
+  subrepo: jammy/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-2ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - balint@balintreczey.hu
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: ubuntu_25_04
+  subrepo: plucky/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.16.0
+  origversion: 1:4.16.0-7ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: ubuntu_25_10
+  subrepo: questing/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: ubuntu_26_04
+  subrepo: resolute/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2ubuntu3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: ubuntu_26_10
+  subrepo: stonking/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.19.3
+  origversion: 1:4.19.3-2ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: ubuntu_27_04
+  subrepo: tenacious/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid6
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 1:4.20.3-1ubuntu1
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 4.8.1_3
+  status: outdated
+  summary: Shadow password file utilities
+  maintainers:
+    - gottox@voidlinux.org
+  licenses:
+    - BSD-3-Clause
+- repo: vylen
+  subrepo: core
+  srcname: shadow
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 4.20.3-1
+  status: newest
+  summary: Programs for handling passwords in a secure way
+  maintainers:
+    - wonkru-dev@proton.me
+- repo: nix_stable_25_05
+  srcname: su
+  visiblename: shadow
+  version: 4.17.4
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: chimera
+  subrepo: main
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.17.2
+  origversion: 4.17.2-r0
+  status: outdated
+  summary: Shadow password file utilities
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: shadow
+  visiblename: shadow
+  version: 4.18.0
+  origversion: null
+  status: outdated
+  summary: Suite containing authentication-related tools such as passwd and su
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: aerynos
   srcname: shadow
   visiblename: shadow
@@ -34,35 +1122,6 @@
   summary: PAM-using login and passwd utilities
   licenses:
     - BSD-3-Clause
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 4.8.1-150400.10.9.1
-  status: outdated
-  summary: Utilities to Manage User and Group Accounts
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-or-later
-  categories:
-    - System/Base
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
 - repo: alpine_3_19
   subrepo: community
   srcname: shadow
@@ -869,6 +1928,14 @@
     - aelin@postmarketos.org
   licenses:
     - BSD-3-Clause
+- repo: gnuguix
+  srcname: shadow
+  binname: shadow
+  visiblename: shadow
+  version: 4.19.0
+  origversion: null
+  status: outdated
+  summary: Authentication-related tools such as passwd, su, and login
 - repo: alpine_edge
   subrepo: community
   srcname: shadow
@@ -1038,17 +2105,6 @@
 - repo: chimera
   subrepo: main
   srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.17.2
-  origversion: 4.17.2-r0
-  status: outdated
-  summary: Shadow password file utilities
-  licenses:
-    - BSD-3-Clause
-- repo: chimera
-  subrepo: main
-  srcname: shadow
   binname: shadow-devel
   visiblename: shadow-devel
   version: 4.17.2
@@ -1110,23 +2166,6 @@
   maintainers:
     - core-ports@crux.nu
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: debian_11
   subrepo: bullseye/main
   srcname: shadow
   binnames:
@@ -1136,6 +2175,23 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1+deb11u1
   status: outdated
   maintainers:
     - pkg-shadow-devel@lists.alioth.debian.org
@@ -1181,6 +2237,25 @@
     - zeha@debian.org
   categories:
     - admin
+- repo: parrot
+  subrepo: parrot/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid5
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.17.4
+  origversion: 1:4.17.4-2
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
 - repo: debian_unstable
   subrepo: sid/main
   srcname: shadow
@@ -1200,22 +2275,6 @@
     - zeha@debian.org
   categories:
     - admin
-- repo: deepin_unstable
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.5.3
-  origversion: 1:4.5.3-1+dde
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - bubulle@debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
 - repo: deepin_23
   subrepo: main
   srcname: shadow
@@ -1252,6 +2311,42 @@
     - pkg-shadow-devel@lists.alioth.debian.org
     - serge@hallyn.com
     - zeha@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login.defs
+    - uidmap
+    - libsubid6
+    - libsubid-dev
+  visiblename: shadow
+  version: 4.20.3
+  origversion: 1:4.20.3-1
+  status: newest
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - serge@hallyn.com
+    - zeha@debian.org
+  categories:
+    - admin
 - repo: distri
   srcname: shadow
   binname: shadow
@@ -1319,14 +2414,6 @@
   version: 4.19.0
   origversion: null
   status: outdated
-- repo: gnuguix
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.19.0
-  origversion: null
-  status: outdated
-  summary: Authentication-related tools such as passwd, su, and login
 - repo: gobolinux
   srcname: Shadow
   visiblename: Shadow
@@ -1368,23 +2455,6 @@
     - demm@kaosx.us
   licenses:
     - BSD
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-ok3.1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
 - repo: liguros_stable
   srcname: sys-apps/shadow
   visiblename: sys-apps/shadow
@@ -1536,28 +2606,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: su
-  visiblename: shadow
-  version: 4.17.4
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_11
-  srcname: shadow
-  visiblename: shadow
-  version: 4.18.0
-  origversion: null
-  status: outdated
-  summary: Suite containing authentication-related tools such as passwd and su
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_25_11
   srcname: su
   visiblename: shadow
@@ -1569,23 +2617,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
-- repo: openeuler_25_03
-  srcname: shadow
-  binnames:
-    - shadow
-    - shadow-subid-devel
-    - shadow-help
-    - shadow-debuginfo
-    - shadow-debugsource
-  visiblename: shadow
-  version: 4.14.3
-  origversion: 2:4.14.3-7.oe2503
-  status: outdated
-  summary: Tools for managing accounts and shadow password files
-  licenses:
-    - BSD and GPLv2+
-  categories:
-    - Unspecified
 - repo: nix_stable_26_05
   srcname: shadow
   visiblename: shadow
@@ -1768,6 +2799,40 @@
     - BSD and GPLv2+
   categories:
     - Unspecified
+- repo: openeuler_25_03
+  srcname: shadow
+  binnames:
+    - shadow
+    - shadow-subid-devel
+    - shadow-help
+    - shadow-debuginfo
+    - shadow-debugsource
+  visiblename: shadow
+  version: 4.14.3
+  origversion: 2:4.14.3-7.oe2503
+  status: outdated
+  summary: Tools for managing accounts and shadow password files
+  licenses:
+    - BSD and GPLv2+
+  categories:
+    - Unspecified
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 1:4.8.1-ok3.1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
 - repo: openkylin_1_0
   subrepo: yangtze-proposed/main
   srcname: shadow
@@ -1997,6 +3062,18 @@
   visiblename: shadow
   version: 4.8.1
   origversion: 4.8.1-150400.10.24.1
+  status: outdated
+  summary: Utilities to Manage User and Group Accounts
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-or-later
+  categories:
+    - System/Base
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: shadow
+  visiblename: shadow
+  version: 4.8.1
+  origversion: 4.8.1-150400.10.9.1
   status: outdated
   summary: Utilities to Manage User and Group Accounts
   licenses:
@@ -2383,1143 +3460,30 @@
     - fallback-mnt-openwrt@repology
   categories:
     - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-passwd
-  visiblename: shadow-passwd
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-pwck
-  visiblename: shadow-pwck
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-pwconv
-  visiblename: shadow-pwconv
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-pwunconv
-  visiblename: shadow-pwunconv
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-su
-  visiblename: shadow-su
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-useradd
-  visiblename: shadow-useradd
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-userdel
-  visiblename: shadow-userdel
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-usermod
-  visiblename: shadow-usermod
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-utils
-  visiblename: shadow-utils
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-vipw
-  visiblename: shadow-vipw
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 4.8.1-3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-chage
-  visiblename: shadow-chage
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-chfn
-  visiblename: shadow-chfn
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-chgpasswd
-  visiblename: shadow-chgpasswd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-chpasswd
-  visiblename: shadow-chpasswd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-chsh
-  visiblename: shadow-chsh
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-common
-  visiblename: shadow-common
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-expiry
-  visiblename: shadow-expiry
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-faillog
-  visiblename: shadow-faillog
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-gpasswd
-  visiblename: shadow-gpasswd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-groupadd
-  visiblename: shadow-groupadd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-groupdel
-  visiblename: shadow-groupdel
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-groupmems
-  visiblename: shadow-groupmems
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-groupmod
-  visiblename: shadow-groupmod
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-groups
-  visiblename: shadow-groups
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-grpck
-  visiblename: shadow-grpck
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-grpconv
-  visiblename: shadow-grpconv
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-grpunconv
-  visiblename: shadow-grpunconv
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-lastlog
-  visiblename: shadow-lastlog
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-login
-  visiblename: shadow-login
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-logoutd
-  visiblename: shadow-logoutd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-newgidmap
-  visiblename: shadow-newgidmap
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-newgrp
-  visiblename: shadow-newgrp
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: pisi_main
-  subrepo: core
-  srcname: system/base/shadow
-  visiblename: shadow
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  summary: Utilities to deal with user accounts
-  maintainers:
-    - admins@pisilinux.org
-  licenses:
-    - BSD
-  categories:
-    - app:console
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-newuidmap
-  visiblename: shadow-newuidmap
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-newusers
-  visiblename: shadow-newusers
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-nologin
-  visiblename: shadow-nologin
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-passwd
-  visiblename: shadow-passwd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-pwck
-  visiblename: shadow-pwck
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-pwconv
-  visiblename: shadow-pwconv
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-pwunconv
-  visiblename: shadow-pwunconv
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-su
-  visiblename: shadow-su
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-useradd
-  visiblename: shadow-useradd
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-userdel
-  visiblename: shadow-userdel
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-usermod
-  visiblename: shadow-usermod
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-utils
-  visiblename: shadow-utils
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow-vipw
-  visiblename: shadow-vipw
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 4.8.1-r3
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-- repo: parabola
-  subrepo: core
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.20.0.arch1
-  origversion: 4.20.0.arch1-1
-  status: outdated
-  summary: Password and account management tool suite with support for shadow files and PAM
-  licenses:
-    - 0BSD
-    - BSD-3-Clause
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1+deb11u1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: pardus_21
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: parrot
-  subrepo: parrot/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: pld
-  srcname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 4.20.3-1
-  status: newest
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: shadow
-  binnames:
-    - login
-    - passwd
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: shadow
-  binnames:
-    - libsubid-dev
-    - libsubid5
-    - login.defs
-    - passwd
-    - uidmap
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - libdevel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: raspbian_testing
-  subrepo: main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid6
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 1:4.20.3-1
-  status: newest
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: ravenports
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  summary: Password and admin tools for Linux
-  maintainers:
-    - fallback-mnt-ravenports@repology
-  categories:
-    - sysutils
-- repo: side
-  srcname: system/base/shadow
-  visiblename: shadow
-  version: 4.18.0
-  origversion: null
-  status: outdated
-  summary: Utilities to deal with user accounts.
-  maintainers:
-    - uglyside@yandex.ru
-  licenses:
-    - BSD-3-Clause
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: shadow
-  visiblename: shadow
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: shadow
-  visiblename: shadow
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: solus
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  summary: login and password tools
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - system.base
-- repo: solus
-  srcname: shadow
-  binname: shadow-dbginfo
-  visiblename: shadow-dbginfo
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  summary: Debug symbols for shadow
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - debug
-- repo: solus
-  srcname: shadow
-  binname: shadow-devel
-  visiblename: shadow-devel
-  version: 4.19.4
-  origversion: null
-  status: outdated
-  summary: Development files for shadow
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - programming.devel
-- repo: spack
-  srcname: shadow
-  visiblename: shadow
-  version: 4.16.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - BSD-3-Clause
-- repo: stalix
-  srcname: bin/shadow
-  binname: bin/shadow
-  visiblename: bin/shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/shadow
-  binname: bin/shadow
-  visiblename: bin/shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: starkos
-  subrepo: main
-  srcname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 4.20.3-1
-  status: newest
-  summary: Programs for handling passwords in a secure way
-  maintainers:
-    - starkos@disroot.org
-- repo: t2
-  srcname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: null
-  status: newest
-  summary: Utils for managing users and (shadow) passwords
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - BSD
-  categories:
-    - base/system
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1ubuntu5.20.04.5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: ubuntu_20_04
-  subrepo: focal/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-1ubuntu5
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: ubuntu_22_04
-  subrepo: jammy/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-2ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - balint@balintreczey.hu
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 1:4.8.1-2ubuntu2.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - balint@balintreczey.hu
-    - serge@hallyn.com
-  categories:
-    - admin
-- repo: ubuntu_25_04
-  subrepo: plucky/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.16.0
-  origversion: 1:4.16.0-7ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: ubuntu_25_10
-  subrepo: questing/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: ubuntu_26_04
-  subrepo: resolute/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.17.4
-  origversion: 1:4.17.4-2ubuntu3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: ubuntu_26_10
-  subrepo: stonking/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.19.3
-  origversion: 1:4.19.3-2ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: ubuntu_27_04
-  subrepo: tenacious/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid5
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.19.3
-  origversion: 1:4.19.3-2ubuntu2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login.defs
-    - uidmap
-    - libsubid6
-    - libsubid-dev
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 1:4.20.3-1ubuntu1
-  status: newest
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - serge@hallyn.com
-    - zeha@debian.org
-  categories:
-    - admin
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: shadow
-  binname: shadow
-  visiblename: shadow
-  version: 4.8.1
-  origversion: 4.8.1_3
-  status: outdated
-  summary: Shadow password file utilities
-  maintainers:
-    - gottox@voidlinux.org
-  licenses:
-    - BSD-3-Clause
-- repo: vylen
-  subrepo: core
-  srcname: shadow
-  visiblename: shadow
-  version: 4.20.3
-  origversion: 4.20.3-1
-  status: newest
-  summary: Programs for handling passwords in a secure way
-  maintainers:
-    - wonkru-dev@proton.me
-- repo: alpine_3_17
-  subrepo: community
+- repo: adelie_current
+  subrepo: system
   srcname: shadow
   binname: shadow-doc
   visiblename: shadow-doc
   version: "4.13"
   origversion: 4.13-r0
   status: outdated
-  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  summary: Login and password management utilities (documentation)
   maintainers:
-    - developer@it-offshore.co.uk
+    - awilfox@adelielinux.org
   licenses:
-    - BSD-3-Clause
+    - BSD-3-Clause OR Artistic-1.0-Perl
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
+- repo: carbs
+  subrepo: extra
   srcname: shadow
-  binname: shadow-subids
-  visiblename: shadow-subids
+  visiblename: shadow
   version: "4.13"
-  origversion: 4.13-r0
+  origversion: null
   status: outdated
-  summary: Utilities for using subordinate UIDs and GIDs
+  summary: Shadow password file utilities
   maintainers:
-    - developer@it-offshore.co.uk
+    - cem@carbslinux.org
   licenses:
     - BSD-3-Clause
   vulnerable: true
@@ -3546,20 +3510,6 @@
   origversion: 4.13-r0
   status: outdated
   summary: Login and password management utilities (debug symbols)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - BSD-3-Clause OR Artistic-1.0-Perl
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: shadow
-  binname: shadow-doc
-  visiblename: shadow-doc
-  version: "4.13"
-  origversion: 4.13-r0
-  status: outdated
-  summary: Login and password management utilities (documentation)
   maintainers:
     - awilfox@adelielinux.org
   licenses:
@@ -3672,6 +3622,34 @@
   origversion: 4.13-r0
   status: outdated
   summary: Login utils from shadow package (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: shadow
+  binname: shadow-doc
+  visiblename: shadow-doc
+  version: "4.13"
+  origversion: 4.13-r0
+  status: outdated
+  summary: PAM-using login and passwd utilities (usermod, useradd, ...) (documentation)
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: shadow
+  binname: shadow-subids
+  visiblename: shadow-subids
+  version: "4.13"
+  origversion: 4.13-r0
+  status: outdated
+  summary: Utilities for using subordinate UIDs and GIDs
   maintainers:
     - developer@it-offshore.co.uk
   licenses:
@@ -3853,19 +3831,6 @@
     - serge@hallyn.com
     - zeha@debian.org
   vulnerable: true
-- repo: carbs
-  subrepo: extra
-  srcname: shadow
-  visiblename: shadow
-  version: "4.13"
-  origversion: null
-  status: outdated
-  summary: Shadow password file utilities
-  maintainers:
-    - cem@carbslinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
 - repo: crux_37
   subrepo: core
   srcname: shadow
@@ -3909,25 +3874,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-apps
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: shadow
-  binnames:
-    - login
-    - passwd
-    - uidmap
-  visiblename: shadow
-  version: "4.5"
-  origversion: 1:4.5-1.1
-  status: outdated
-  maintainers:
-    - pkg-shadow-devel@lists.alioth.debian.org
-    - bubulle@debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
-  categories:
-    - admin
   vulnerable: true
 - repo: pardus_23
   subrepo: main
@@ -3983,6 +3929,25 @@
     - balint@balintreczey.hu
     - serge@hallyn.com
   vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: shadow
+  binnames:
+    - login
+    - passwd
+    - uidmap
+  visiblename: shadow
+  version: "4.5"
+  origversion: 1:4.5-1.1
+  status: outdated
+  maintainers:
+    - pkg-shadow-devel@lists.alioth.debian.org
+    - bubulle@debian.org
+    - rbalint@ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+  vulnerable: true
 - repo: raspbian_oldstable
   subrepo: main
   srcname: shadow
@@ -4004,24 +3969,6 @@
     - admin
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: shadow
-  binnames:
-    - passwd
-    - login
-    - uidmap
-  visiblename: shadow
-  version: 4.1.5.1
-  origversion: 1:4.1.5.1-1ubuntu9
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bubulle@debian.org
-    - nicolas.francois@centraliens.net
-  categories:
-    - admin
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: shadow
   binnames:
@@ -4039,16 +3986,16 @@
   categories:
     - admin
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
+- repo: ubuntu_14_04
+  subrepo: trusty/main
   srcname: shadow
   binnames:
     - passwd
     - login
     - uidmap
   visiblename: shadow
-  version: "4.2"
-  origversion: 1:4.2-3.1ubuntu5
+  version: 4.1.5.1
+  origversion: 1:4.1.5.1-1ubuntu9
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4075,22 +4022,21 @@
   categories:
     - admin
   vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/main
+- repo: ubuntu_16_04
+  subrepo: xenial/main
   srcname: shadow
   binnames:
     - passwd
     - login
     - uidmap
   visiblename: shadow
-  version: "4.5"
-  origversion: 1:4.5-1ubuntu1
+  version: "4.2"
+  origversion: 1:4.2-3.1ubuntu5
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - bubulle@debian.org
-    - rbalint@ubuntu.com
-    - serge@hallyn.com
+    - nicolas.francois@centraliens.net
   categories:
     - admin
   vulnerable: true
@@ -4113,21 +4059,21 @@
   categories:
     - admin
   vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble-updates/main
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: shadow
   binnames:
     - passwd
     - login
     - uidmap
-    - libsubid4
-    - libsubid-dev
   visiblename: shadow
-  version: "4.13"
-  origversion: 1:4.13+dfsg1-4ubuntu3.2
+  version: "4.5"
+  origversion: 1:4.5-1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - bubulle@debian.org
+    - rbalint@ubuntu.com
     - serge@hallyn.com
   categories:
     - admin
@@ -4144,6 +4090,25 @@
   visiblename: shadow
   version: "4.13"
   origversion: 1:4.13+dfsg1-4ubuntu3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - serge@hallyn.com
+  categories:
+    - admin
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: shadow
+  binnames:
+    - passwd
+    - login
+    - uidmap
+    - libsubid4
+    - libsubid-dev
+  visiblename: shadow
+  version: "4.13"
+  origversion: 1:4.13+dfsg1-4ubuntu3.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

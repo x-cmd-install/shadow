@@ -32,7 +32,7 @@ Total: **56,309** lines of code across **509** files in the top 5 languages.
 ## Release
 
 - **Latest**: `4.20.4` (2026-11-22)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-24
 - **Assets in release**: 8
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **56,309** lines of code across **509** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 60 · **Merged PRs**: 1067 · **Open PRs**: 81 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4861
+- **Releases**: 60 · **Merged PRs**: 1068 · **Open PRs**: 81 · **Closed issues**: 411 · **Open issues**: 97 · **Commits**: 4862
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 11 | 11 | 0 | 1 | 0 |
-| last60d | 2026-09-24 | 1 | 24 | 13 | 4 | 1 | 0 |
-| 90d | 2026-08-25 | 2 | 43 | 20 | 6 | 6 | 0 |
-| last180d | 2026-05-27 | 8 | 94 | 31 | 22 | 14 | 0 |
-| 360d | 2025-11-28 | 14 | 229 | 59 | 58 | 30 | 0 |
-| last720d | 2024-12-03 | 23 | 381 | 75 | 101 | 43 | 1149 |
+| 30d | 2026-10-25 | 1 | 12 | 11 | 0 | 1 | 19 |
+| last60d | 2026-09-25 | 1 | 24 | 13 | 3 | 1 | 51 |
+| 90d | 2026-08-26 | 2 | 42 | 20 | 6 | 6 | 132 |
+| last180d | 2026-05-28 | 8 | 95 | 31 | 22 | 14 | 260 |
+| 360d | 2025-11-29 | 14 | 228 | 59 | 58 | 30 | 537 |
+| last720d | 2024-12-04 | 23 | 381 | 75 | 101 | 43 | 1149 |
 
 ## Release assets
 
@@ -69,11 +69,11 @@ Total: **56,309** lines of code across **509** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **301** distros on [repology.org](https://repology.org/project/shadow). **11** are ✅ on the latest upstream release, **280** are ⚠️ on an older version.
+Reported by **304** distros on [repology.org](https://repology.org/project/shadow). **33** are ✅ on the latest upstream release, **259** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `4.20.3` | ⚠️ outdated |
+| Debian unstable | `4.20.3` | 🪦 legacy |
 | Debian 14 | `4.20.3` | ⚠️ outdated |
 | Debian 13 | `4.17.4` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.17.4` | ⚠️ outdated |
@@ -93,4 +93,4 @@ Install metadata for shadow lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T11:11:44Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:42:52Z._

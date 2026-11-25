@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 7554799,
       "digest": "sha256:041728ec7eaf1c4d45b5a861ce28f66a42d156a6a04ae725336bf4c997b74885",
-      "download_count": 18,
+      "download_count": 22,
       "created_at": "2026-11-22T21:17:12Z",
       "updated_at": "2026-11-22T21:17:14Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.4/shadow-4.20.4.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:c16083d0e61bec4242bdfeac75465ad63fc3ad9aea9da7703e1f27bf30e0ce59",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-11-22T21:17:14Z",
       "updated_at": "2026-11-22T21:17:14Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.4/shadow-4.20.4.tar.gz.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2315244,
       "digest": "sha256:639d03cd7821b4086deba50485a1b8041acbb0d1d3c33c20ebd4708e0eeb9bc7",
-      "download_count": 384,
+      "download_count": 471,
       "created_at": "2026-11-22T21:17:14Z",
       "updated_at": "2026-11-22T21:17:15Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.4/shadow-4.20.4.tar.xz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:0972fcfd01aa7a9042900d9247eeaf3a10c8e9ac3aa36d91b499017cfb8e5a82",
-      "download_count": 80,
+      "download_count": 99,
       "created_at": "2026-11-22T21:17:15Z",
       "updated_at": "2026-11-22T21:17:16Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.4/shadow-4.20.4.tar.xz.asc"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4014435,
       "digest": "sha256:2bd27a63cdb4eb9c6b2602c5081490c27855c472a234054e418c69cd5c0e9cbd",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-11-22T21:17:20Z",
       "updated_at": "2026-11-22T21:17:21Z",
       "browser_download_url": "https://github.com/shadow-maint/shadow/releases/download/4.20.4/shadow-4.20.4_src.tar.gz"

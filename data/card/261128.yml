@@ -1,0 +1,190 @@
+about:
+  description: "Upstream shadow tree"
+  license: NOASSERTION
+  homepage: 
+  head: 9dc8101
+  archived: false
+  latestVersion: "4.20.4"
+  latestRelease: "4.20.4"
+  latestPrerelease: "4.20.0-rc3"
+  collectedAt: 2026-11-28T09:30:58Z
+timeline:
+  created: 2013-06-05
+  lastCommit: 2026-11-28
+  lastVersion: 2026-11-22
+  lastRelease: 2026-11-22
+  lastPrerelease: 2026-07-21
+popularity:
+  star: 413
+  watcher: 15
+  fork: 297
+  release: 60
+  contributor: 208
+  pullRequest: 1298
+  issue: 509
+language:
+  Shell: 1544125
+  C: 1239278
+  Python: 264285
+  M4: 23294
+  Makefile: 18326
+  Perl: 3114
+totalBytes: 3092422
+recent:
+  last30d:
+    since: 2026-10-29
+    release: 1
+    mergedPR: 11
+    openPR: 12
+    closedIssue: 0
+    openIssue: 2
+    commit: 19
+  last60d:
+    since: 2026-09-29
+    release: 1
+    mergedPR: 22
+    openPR: 15
+    closedIssue: 2
+    openIssue: 2
+    commit: 51
+  last90d:
+    since: 2026-08-30
+    release: 2
+    mergedPR: 41
+    openPR: 22
+    closedIssue: 6
+    openIssue: 7
+    commit: 132
+  last180d:
+    since: 2026-06-01
+    release: 8
+    mergedPR: 96
+    openPR: 31
+    closedIssue: 22
+    openIssue: 15
+    commit: 261
+  last360d:
+    since: 2025-12-03
+    release: 14
+    mergedPR: 229
+    openPR: 59
+    closedIssue: 58
+    openIssue: 31
+    commit: 539
+  last720d:
+    since: 2024-12-08
+    release: 22
+    mergedPR: 376
+    openPR: 75
+    closedIssue: 99
+    openIssue: 44
+    commit: 1133
+total:
+  release: 60
+  mergedPR: 1070
+  openPR: 81
+  closedIssue: 411
+  openIssue: 98
+  commit: 4864
+---
+path: /home/runner/.x-repo/github.com/shadow-maint/shadow
+collectedAt: 2026-11-28T09:31:12Z
+loc:
+  C:
+    code: 30444
+    comments: 8686
+    blanks: 5908
+    files: 231
+  Xml:
+    code: 12484
+    comments: 705
+    blanks: 281
+    files: 111
+  Python:
+    code: 6227
+    comments: 24
+    blanks: 1199
+    files: 38
+  CHeader:
+    code: 2466
+    comments: 867
+    blanks: 1357
+    files: 108
+  Sh:
+    code: 2156
+    comments: 150
+    blanks: 197
+    files: 21
+  Automake:
+    code: 1495
+    comments: 41
+    blanks: 218
+    files: 29
+  Yaml:
+    code: 489
+    comments: 7
+    blanks: 58
+    files: 10
+  Autoconf:
+    code: 247
+    comments: 19
+    blanks: 22
+    files: 3
+  Perl:
+    code: 94
+    comments: 5
+    blanks: 17
+    files: 1
+  Makefile:
+    code: 91
+    comments: 0
+    blanks: 18
+    files: 2
+  M4:
+    code: 42
+    comments: 9
+    blanks: 3
+    files: 1
+  Bitbake:
+    code: 35
+    comments: 15
+    blanks: 14
+    files: 4
+  Toml:
+    code: 15
+    comments: 0
+    blanks: 4
+    files: 1
+  Ini:
+    code: 9
+    comments: 0
+    blanks: 1
+    files: 2
+  ForgeConfig:
+    code: 8
+    comments: 0
+    blanks: 1
+    files: 1
+  XSL:
+    code: 8
+    comments: 0
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 685
+    blanks: 235
+    files: 16
+  Text:
+    code: 0
+    comments: 2890
+    blanks: 289
+    files: 912
+total:
+  code: 56367
+  comments: 14110
+  blanks: 9827
+  files: 1492
+---
+
+---
